@@ -143,4 +143,5 @@ end
 
 def team_colors(team_name)
   team = find_team(team_name)
-  team.
+  team.fetch(:colors)
+end
