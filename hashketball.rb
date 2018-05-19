@@ -148,4 +148,6 @@ end
 
 def team_names
   teams.collect do |team|
-    team
+    team.fetch(:team_name)
+  end
+end
