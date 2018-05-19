@@ -115,7 +115,8 @@ def game_hash
   }
 end
 
-def find_player(name)
+def players
+  game_hash[:home][:team_name]
   
 
 
