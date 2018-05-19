@@ -123,7 +123,8 @@ def find_player(name)
   players.fetch(name)
 end
 
-
+def num_points_scored(name)
+  player = find_player.fetch
   
 
 
