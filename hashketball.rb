@@ -115,7 +115,8 @@ def game_hash
   }
 end
 
-def find_a_player
+def find_player(name)
+  
 
 
 
