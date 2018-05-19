@@ -132,3 +132,8 @@ def shoe_size(name)
   player = find_player(name)
   player.fetch(:shoe)
 end
+
+def teams
+  game_hash.values
+end
+
