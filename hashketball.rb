@@ -161,3 +161,5 @@ end
 def player_stats(name)
   find_player(name)
 end
+
+def largest_shoe_size()
