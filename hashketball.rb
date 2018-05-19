@@ -115,8 +115,7 @@ def game_hash
   }
 end
 
-def num_points_scored(name)
-  
+def find_a_player
 
 
 
