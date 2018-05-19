@@ -125,7 +125,7 @@ end
 
 def num_points_scored(name)
   player = find_player(name)
-  player.fetch[:points]
+  player.fetch(:points)
 end
   
 
