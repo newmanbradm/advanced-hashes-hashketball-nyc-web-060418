@@ -167,5 +167,5 @@ def largest_shoe_size
 end
 
 def big_shoe_rebounds
-  player_biggest_shoe_size.fetch(:rebounds)
+  largest_shoe_size.fetch(:rebounds)
 end
