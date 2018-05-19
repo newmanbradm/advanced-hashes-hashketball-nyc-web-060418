@@ -152,3 +152,5 @@ def team_names
   end
 end
 
+def player_numbers(team_name)
+  find_team(team_name)[:players].collect do |play
